@@ -1,0 +1,34 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: calc(1rem + 2vw);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  /* margin-right: ; */
+  background-color: darkgrey;
+  padding: 1rem 1.2rem;
+}
+a{
+  text-decoration: none;
+}
+.cart_page{
+  background: rgb(238, 234, 234);
+  text-align: center;
+  min-height: 100vh;
+  /* color: #fff; */
+}
+.cart_page h3{
+  color:blue;
+  text-align: center;
+}
+.cart_items{
+  display: flex;
+  /* width: 100vw; */
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content:space-evenly;
+}
